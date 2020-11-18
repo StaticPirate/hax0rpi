@@ -36,9 +36,6 @@ echo ""
 # change password
 #passwd pi
 
-echo -e "${YELLOW}[!] enable ssh${NC}"
-sudo systemctl enable ssh
-
 # secret directory
 secret=arsenal
 cd
